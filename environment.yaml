@@ -1,0 +1,11 @@
+name: pairwise-align
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - biopython >=1.79
+  - python-levenshtein >=0.12.2
+  - numpy
+  - pandas
