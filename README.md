@@ -5,4 +5,5 @@ Input is a fasta file containing all sequences, last three character of the sequ
 ### How to run these scripts:  
 `conda env create -f environment.yaml`  
 `conda activate pairwise-align`  
-`python PairwiseAlignment.py [input] [output]`
+`python PairwiseAlignment.py [input] [output]`  
+`Rscript Dendrogram.R [output]`
