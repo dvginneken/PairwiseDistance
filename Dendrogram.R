@@ -1,7 +1,8 @@
 library("ape")
 library(stringr)
 
-matrix <- data.matrix(read.csv("DistanceMatrix_consensus_pt4.csv", header = TRUE, row.names = 1,
+args <- commandArgs()
+matrix <- data.matrix(read.csv(args[6], header = TRUE, row.names = 1,
                    sep = ","))
 
 
