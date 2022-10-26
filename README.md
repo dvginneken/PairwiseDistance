@@ -1,5 +1,5 @@
 # Pairwise Distance
-Calculate the pairwise levenshtein distance between haplotype sequences from method 3 and 4 and plot a dendrogram.  
+Calculate the pairwise levenshtein distance between haplotype sequences from method 3 and 4 (as described in thesis Daphne van Ginneken) and plot a dendrogram.  
 Input is a fasta file containing all sequences, last three character of the sequence names should identify the method. Output is a distance matrix in CSV format.  
 Rscript creates a pdf with the dendrogram.
 
